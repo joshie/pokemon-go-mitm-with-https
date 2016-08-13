@@ -1,0 +1,21 @@
+{
+  "name": "pokemon-go-mitm-with-https",
+  "version": "0.0.1",
+  "description": "Pokemon Go MITM proxy with https",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffee example.logTraffic.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshie/pokemon-go-mitm-node-with-https.git"
+  },
+  "author": "Josh Lohrman",
+  "license": "MIT",
+  "dependencies": {
+    "pokemon-go-mitm":   "*",
+    "http-proxy":        "*",
+    "https-proxy-agent": "*"
+  }
+}
